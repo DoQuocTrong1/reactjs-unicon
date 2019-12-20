@@ -1,0 +1,169 @@
+/*    Background Mixins
+--------------------------*/
+.bg,
+.card.bg-primary {
+  background: #22252a;
+  color: #fff;
+}
+
+.App-header {
+  background-color: #22252a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App {
+  text-align: center;
+}
+/* End Background */
+
+/*Login */
+.login-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-logo span {
+  color: #fff;
+  font-size: 24px;
+}
+.login-logo img {
+  height: 75px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.login-content {
+  margin-top: 20px;
+}
+
+.login-form {
+  padding: 30px 30px 20px;
+}
+.login-form h4 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login-form .checkbox {
+  color: #878787;
+}
+.login-form .checkbox label {
+  text-transform: none;
+  color: #878787;
+}
+.login-form .btn {
+  width: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 12px;
+}
+.login-form label {
+  color: #fff;
+  text-transform: uppercase;
+}
+.login-form label a {
+  color: #f17128;
+}
+
+.social-login-content {
+  margin: 0px -30px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 30px 0px;
+  background: #fcfcfc;
+}
+
+.social-button {
+  padding: 0 30px;
+}
+.social-button i {
+  padding: 19px;
+}
+.btn_login {
+  height: 50px;
+  width: 300px;
+  padding-top: 10px;
+  background: #f17128;
+  border: 1px solid #f17128;
+  color: #fff;
+  text-align: center;
+  
+}
+.btn_login:hover {
+  background: #f17128;
+  color: #fff;
+}
+.register-link a {
+  color: #f17128;
+}
+
+/*End Login*/
+
+/*    Form Horizontal
+----------------------*/
+.form-horizontal .control-label {
+  padding-top: 12px;
+}
+
+.form-horizontal .form-group {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/*  Input Style*/
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.login-form .form-group {
+  position: relative;
+}
+.login-form .form-group .form-control {
+  padding-left: 45px;
+  background-color: #2d3035;
+}
+.form-control {
+  height: 42px;
+  width: 300px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #444951;
+  background: none;
+  color: #fff;
+}
+.form-control:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #878787;
+}
+.form-control:focus,
+.form-control.active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #878787;
+}
+
+.input-default {
+  border-radius: 4px;
+}
+
+.input-flat {
+  border-radius: 0px;
+}
+
+.input-rounded {
+  border-radius: 100px;
+}
+
+.input-focus {
+  border-color: #f17128;
+}
+.input-focus:focus {
+  border-color: #f17128;
+}
+/* End INput Style */
